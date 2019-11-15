@@ -1,0 +1,240 @@
+{
+    "measurements": [
+        {
+            "key": "prop.temp",
+            "name": "Temperature",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": 0,
+                    "units": "celsius",
+                    "temperature": "name",
+                    "key": "value",
+                    "max": 100
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.hum",
+            "name": "Humidity",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": 0,
+                    "units": "percentage",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 100
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.pressure",
+            "name": "Pressure",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": 0,
+                    "units": "hpa",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 1500
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.magx",
+            "name": "Magnetic Flux X",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": -1500,
+                    "units": "mGauss",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 1500
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.magy",
+            "name": "Magnetic Flux Y",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": -1500,
+                    "units": "mGauss",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 1500
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.magz",
+            "name": "Magnetic Flux Z",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": -1500,
+                    "units": "mGauss",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 1500
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.accx",
+            "name": "Acceleration X",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": -40,
+                    "units": "m/s^2",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 4
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.accy",
+            "name": "Acceleration Y",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": -40,
+                    "units": "m/s^2",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 4
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        },
+        {
+            "key": "prop.accz",
+            "name": "Acceleration Z",
+            "values": [
+                {
+                    "hints": {
+                        "range": 1
+                    },
+                    "format": "float",
+                    "min": -40,
+                    "units": "m/s^2",
+                    "key": "value",
+                    "name": "Value",
+                    "max": 4
+                },
+                {
+                    "name": "Timestamp",
+                    "key": "utc",
+                    "hints": {
+                        "domain": 1
+                    },
+                    "format": "utc",
+                    "source": "timestamp"
+                }
+            ]
+        }
+    ],
+    "key": "sc",
+    "name": "Horizon"
+}
